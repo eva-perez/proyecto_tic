@@ -7,12 +7,12 @@
     <title>contacto</title>
 </head>
 <body bgcolor="silver">
-    <div align="center">
+    <nav align="center">
         <a href="index.html">Inicio</a>
         <a href="informacion.html">Información</a>
         <a href="galeria.html">Galería</a>
         <a href="tabla.html">Tabla</a>
-   </div>
+    </nav>
 
 
     <div id="contacto" align="center">
@@ -20,7 +20,8 @@
     <form>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre"><br>
-        <p> <label for="Correo_electrónico">Correo electrónico:</label>
+        <p>
+        <label for="Correo_electrónico">Correo electrónico:</label>
         <input type="email" id="Correo_electrónico" name="Correo_electrónico" size="45" maxlength="90"></p>
         <p><label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" cols="60" rows="5"></textarea><br>
@@ -29,7 +30,20 @@
         <input type="reset" value="Resetear">
         <input type="submit" value="Enviar">
         </p>
-        
+        <p>
+        <label for="videogames">Elige tu vídeojuego favorito:</label>
+        <input list="videogame" name="videogames" id="videogames">
+        <datalist id="videogame">
+            <option value="God of War">God of War</option>
+            <option value="Final Fantasy VII">Final Fantasy VII</option>
+            <option value="Onimusha: Warlords">Onimusha: Warlords</option>
+            <option value="Crash Bandicoot">Crash Bandicoot</option>
+            <option value="Halo: Combat Evolved">Halo: Combat Evolved</option>
+            <option value="Sonic the Hedgehog">Sonic the Hedgehog</option>
+            <option value="The Legend of Zelda">The Legend of Zelda</option>
+            <option value="Brothers in Arms: Road to Hill 30">Brothers in Arms: Road to Hill 30</option>
+        </datalist>
+        </p>
     </form>
     </div>
     <hr>
