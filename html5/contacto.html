@@ -21,13 +21,17 @@
     <div id="tabla"  align="center">
     <form>
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Eva Pérez" required><br>
         <p>
         <label for="Correo_electrónico">Correo electrónico:</label>
-        <input type="email" id="Correo_electrónico" name="Correo_electrónico" size="45" maxlength="90"></p>
+        <input type="email" id="Correo_electrónico" name="Correo_electrónico" size="45" maxlength="90" placeholder="qwert@gmail.com" required></p>
+        <p>
+        <label for="phone">Introduce tu número de teléfono:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123456789">
+        </p>
         <p>
         <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" cols="60" rows="5"></textarea><br>
+        <textarea id="mensaje" name="mensaje" cols="60" rows="5" minlength="10" maxlength="8000" required></textarea><br>
         </p>
         
         <p>
