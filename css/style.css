@@ -1,7 +1,40 @@
-body {
-    background-image: url("../imagenes/bgphoto.webp");
-    background-size: cover;
+
+
+.custom-navbar {
+  background-color: purple; 
 }
-.p {
-    colo
+
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link { 
+  color: #ffffff;
+}
+
+.custom-navbar .nav-link:hover { 
+  color: #dbe4ff;
+}
+
+
+.custom-navbar .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.custom-navbar .dropdown-menu {
+  background-color: #ffffff;
+}
+
+.custom-navbar .dropdown-item:hover {
+  background-color: #e9ecef;
+}
+
+
+.btn-search:hover {
+  background-color: #5a6268;
+}
+
+/* Input */
+.form-control {
+  border-radius: 4px;
 }
