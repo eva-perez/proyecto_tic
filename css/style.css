@@ -10,7 +10,6 @@ body {
     color: white;
     margin: 0;
     min-height: 100vh;
-    text-align: center;
 }
 
 /* NAVEGACIÓN */
@@ -109,6 +108,16 @@ figure img {
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s;
+}
+
+/* INFORMACIÓN */
+img {
+    border-radius: 10px;
+}
+
+/* TABLA */
+table {
+
 }
 
 /* Efecto al pasar el ratón */
