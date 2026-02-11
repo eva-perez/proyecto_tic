@@ -1,6 +1,7 @@
-/* ===== ESTILOS GENERALES ===== */
+/* ESTILOS GENERALES */
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
     text-align: center;
 }
 
-/* ===== NAVEGACIÓN ===== */
+/* NAVEGACIÓN */
 nav {
     background-color: #222;
     padding: 15px;
@@ -33,18 +34,17 @@ nav a:hover {
     border-radius: 10px;
 }
 
-/* ===== CABECERA ===== */
+/* CABECERA */
 header {
-    background-color: black;
+    background-color: #111;
     padding: 20px;
 }
 
 header h1 {
-    text-align: center;
     color: #00ff99;
 }
 
-/* ===== FORMULARIO ===== */
+/* FORMULARIO */
 #tabla {
     padding: 20px;
 }
@@ -64,7 +64,7 @@ input, textarea {
     margin-top: 5px;
 }
 
-/* ===== BOTONES ===== */
+/* BOTONES */
 input[type="submit"],
 input[type="reset"] {
     padding: 8px 15px;
@@ -79,7 +79,7 @@ input[type="reset"]:hover {
     background-color: white;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 footer {
     background-color: #222;
     padding: 10px;
@@ -87,11 +87,11 @@ footer {
 
 footer p {
     text-align: center;
-    color: #070707;
+    color: #00ff99;
     margin: 0;
 }
 
-/* ===== GALERÍA ===== */
+/* GALERÍA */
 /* Centrar la tabla de la galería */
 table {
     margin: auto;
