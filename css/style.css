@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #111;
     color: white;
-    margin: 0;
+    margin:auto;
     min-height: 100vh;
 }
 
@@ -23,7 +23,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
-    transition: background-color 0.3s;
+    transition: 0.3s;
 }
 
 nav a:hover {
@@ -37,6 +37,8 @@ nav a:hover {
 header {
     background-color: #111;
     padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
 }
 
 header h1 {
@@ -44,10 +46,6 @@ header h1 {
 }
 
 /* FORMULARIO */
-#tabla {
-    padding: 20px;
-}
-
 form {
     max-width: 600px;
     margin: auto;
@@ -61,21 +59,31 @@ label {
 input, textarea {
     padding: 5px;
     margin-top: 5px;
+    background-color: #111;
+    color: #ffffff;
+    border: 2px solid #00ff99;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #00ff99;
 }
 
 /* BOTONES */
-input[type="submit"],
-input[type="reset"] {
-    padding: 8px 15px;
-    margin: 10px;
-    background-color: #00ff99;
-    border: none;
-    cursor: pointer;
+
+details {
+    padding: 10px;
+    background-color: #222;
 }
 
-input[type="submit"]:hover,
-input[type="reset"]:hover {
-    background-color: white;
+figure img:hover {
+    transform: scale(1.1);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 /* FOOTER */
@@ -88,6 +96,12 @@ footer p {
     text-align: center;
     color: #00ff99;
     margin: 0;
+}
+
+/* Audio */
+audio {
+    padding: 10px;
+    background-color: #222;
 }
 
 /* GALERÍA */
@@ -117,16 +131,12 @@ img {
 
 /* TABLA */
 table {
-
+    margin: 50px auto;
+    border-collapse: collapse;
+    border: 2px solid #00ff99;
 }
 
-/* Efecto al pasar el ratón */
-figure img:hover {
-    transform: scale(1.1);
-}
-
-/* Texto de la imagen */
-figcaption {
-    margin-top: 10px;
-    font-size: 14px;
+th, td {
+    border: 1px solid #00ff99;
+    padding: 8px;
 }
