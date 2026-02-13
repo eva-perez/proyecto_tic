@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #111;
     color: white;
-    margin:auto;
+    margin:0 20px;
     min-height: 100vh;
 }
 
@@ -31,6 +31,7 @@ nav a:hover {
     color: black;
     padding: 5px 10px;
     border-radius: 10px;
+    box-shadow: 0 0 10px #00ff99;
 }
 
 /* CABECERA */
@@ -43,6 +44,7 @@ header {
 
 header h1 {
     color: #00ff99;
+    text-shadow: 0 0 10px #00ff99;
 }
 
 /* FORMULARIO */
@@ -63,6 +65,7 @@ input, textarea {
     color: #ffffff;
     border: 2px solid #00ff99;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 input:focus, textarea:focus {
@@ -70,15 +73,26 @@ input:focus, textarea:focus {
     box-shadow: 0 0 10px #00ff99;
 }
 
-/* BOTONES */
+input[type="submit"],
+input[type="reset"] {
+    color: #111;
+    padding:10px;
+    margin: 10px;
+    background-color: #00ff99;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: white;
+}
+
+/* INDEX */
 
 details {
     padding: 10px;
     background-color: #222;
-}
-
-figure img:hover {
-    transform: scale(1.1);
+    cursor: pointer;
 }
 
 figcaption {
@@ -116,7 +130,7 @@ figure {
     text-align: center;
 }
 
-figure img {
+img {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -124,19 +138,20 @@ figure img {
     transition: transform 0.3s;
 }
 
-/* INFORMACIÓN */
-img {
-    border-radius: 10px;
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00ff99;
 }
 
 /* TABLA */
-table {
+#tabla {
     margin: 50px auto;
     border-collapse: collapse;
     border: 2px solid #00ff99;
 }
 
-th, td {
+#tabla th,
+#tabla td {
     border: 1px solid #00ff99;
     padding: 8px;
 }
