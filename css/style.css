@@ -1,15 +1,18 @@
 /* ESTILOS GENERALES */
 * {
+     text-align: center;
     box-sizing: border-box;
-    text-align: center;
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #111;
     color: white;
-    margin:0 20px;
     min-height: 100vh;
+}
+
+#contenido {
+    margin:0 20px;
 }
 
 /* NAVEGACIÓN */
