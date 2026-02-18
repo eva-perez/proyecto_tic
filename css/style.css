@@ -1,4 +1,4 @@
-/* ===== ESTILOS GENERALES ===== */
+/* ESTILOS GENERALES */
 * {
      text-align: center;
     box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
     margin:0 20px;
 }
 
-/* ===== NAVEGACIÓN ===== */
+/* NAVEGACIÓN */
 nav {
     background-color: #222;
     padding: 15px;
@@ -37,7 +37,7 @@ nav a:hover {
     box-shadow: 0 0 10px #00ff99;
 }
 
-/* ===== CABECERA ===== */
+/* CABECERA */
 header {
     background-color: black;
     padding: 20px;
@@ -99,7 +99,7 @@ figcaption {
     font-size: 14px;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 footer {
     background-color: #222;
     padding: 10px;
@@ -107,7 +107,7 @@ footer {
 
 footer p {
     text-align: center;
-    color: #070707;
+    color: #00ff99;
     margin: 0;
 }
 
@@ -117,7 +117,7 @@ audio {
     background-color: #222;
 }
 
-/* ===== GALERÍA ===== */
+/* GALERÍA */
 /* Centrar la tabla de la galería */
 table {
     margin: auto;
