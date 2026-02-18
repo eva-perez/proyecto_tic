@@ -1,6 +1,6 @@
 /* ESTILOS GENERALES */
 * {
-     text-align: center;
+    text-align: center;
     box-sizing: border-box;
 }
 
@@ -121,7 +121,6 @@ audio {
 /* Centrar la tabla de la galería */
 table {
     margin: auto;
-    border-spacing: 20px;
 }
 
 /* Estilo de las imágenes */
@@ -132,7 +131,6 @@ figure {
 img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s;
 }
